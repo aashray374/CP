@@ -116,7 +116,6 @@ void testcase() {
 
 
     for(int len = 2;len<=n;len++){
-        vector<int> curr(n,0);
         
         int used = n-len;
         int turn = used%2;
